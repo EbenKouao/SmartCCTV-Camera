@@ -33,7 +33,6 @@ for file in os.listdir("profiles"):
         known_person.append(file.replace(".jpg", ""))
         file=os.path.join("profiles/", file)
         known_image = face_recognition.load_image_file(file)
-        #print("test")
         #print(face_recognition.face_encodings(known_image)[0])
         known_face_encodings.append(face_recognition.face_encodings(known_image)[0])
         #print(known_face_encodings)
@@ -69,14 +68,14 @@ while True:
             name = "Unknown"
             
             #print(face_encoding)
-            print(matches)
+            #print(matches)
 
             face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
             best_match_index = np.argmin(face_distances)
             if matches[best_match_index]:
                 name = known_person[best_match_index]
 
-            print(name)
+            #print(name)
             #print(face_locations)
             face_names.append(name)
     
