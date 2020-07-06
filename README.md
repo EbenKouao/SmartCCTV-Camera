@@ -8,7 +8,7 @@ by Email. With the a touchscreen interactive you would be able to also rotate yo
 This is fully customisable You can add features from IR LED for night vision to Sound module for audio output. 
 
 ## Screenshots
-| ![Smart CCTV](img/readme/smartcctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-view) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-face-recognition-feed) | 
+| ![Smart CCTV](img/readme/smartcctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-view) | ![Live Pi Camera Stream](img/readme/smart-cctv-face-recognition.png) | 
 |---|---|---|
 | Smart CCTV | Live Pi Camera Stream | Face Recognition | 
 
@@ -45,3 +45,4 @@ From here you could program to add multiple profiles. We encourage contribution 
 
 ## Download Beta image of SmartCCTV-camera
 Any troubles installing, try out the already compiled Raspberry Pi (Raspbian OS) Image of [SmartCCTV Camera](https://smartbuilds.io).
+![SmartCCTV Raspbian Image](img/readme/smart-cctv-thumbnail.png)
