@@ -8,7 +8,7 @@ by Email. With the a touchscreen interactive you would be able to also rotate yo
 This is fully customisable You can add features from IR LED for night vision to Sound module for audio output. 
 
 ## Screenshots
-| ![Smart CCTV](img/readme/smartcctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-view) | ![Live Pi Camera Stream](img/readme/smart-cctv-face-recognition.png) | 
+| ![Smart CCTV](img/readme/smart-cctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-view.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-face-recognition.png) | 
 |---|---|---|
 | Smart CCTV | Live Pi Camera Stream | Face Recognition | 
 
