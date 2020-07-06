@@ -8,9 +8,9 @@ by Email. With the a touchscreen interactive you would be able to also rotate yo
 This is fully customisable You can add features from IR LED for night vision to Sound module for audio output. 
 
 ## Screenshots
-| ![Face recognition](img/readme/smartcctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smartcctv-camera-live-stream.png) | 
-|---|---|
-| Face recognition| Live Pi Camera Stream |
+| ![Smart CCTV](img/readme/smartcctv-camera-face-recogntion.png) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-view) | ![Live Pi Camera Stream](img/readme/smart-cctv-outside-face-recognition-feed) | 
+|---|---|---|
+| Smart CCTV | Live Pi Camera Stream | Face Recognition | 
 
 
 ## Preconditions
@@ -36,7 +36,7 @@ git clone https://github.com/EbenKouao/SmartCCTV-Camera
 ## Step 3 – Launch Web Stream
 **Pre-requisite:** Ageitgey Face_recognition Library is installed:
 
-Note: Creating an Autostart script is recommended to keep the stream running on bootup.
+Note: Creating an Autostart of the main.py script is recommended to keep the stream running on bootup.
 ```bash cd modules
 sudo python3 /home/pi/SmartCCTV-Camera/main.py
 ```
